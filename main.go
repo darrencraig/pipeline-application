@@ -21,7 +21,7 @@ func main() {
 	log.Println("Starting pipeline application...")
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello Darren!\n")
+		fmt.Fprintf(w, "Goodbye Everybody!\n")
 	})
 
 	http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
